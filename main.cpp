@@ -1,5 +1,7 @@
 #include <iostream>
+#include <clocale>
+using namespace std;
+
 int main(){
-    std::cout<<"Jopa";
-    return 0;
+setlocale (LC_ALL, "Russian");
 }
