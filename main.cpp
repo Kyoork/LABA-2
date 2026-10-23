@@ -6,6 +6,7 @@ using namespace std;
 int main(){
 setlocale (LC_ALL, "Russian");
 int num1, num2, result;
+cout<<"BIG JOPA";
 cout<<"¬ведите первое число: ";
     cin>>num1;
 cout<<"¬ведите второе число: ";
