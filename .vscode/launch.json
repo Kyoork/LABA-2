@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "d:/KRSU/Code/ТИ/LABA-2",
-      "program": "d:/KRSU/Code/ТИ/LABA-2/build/Debug/outDebug",
+      "program": "d:/KRSU/Code/ТИ/LABA-2/flags.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
