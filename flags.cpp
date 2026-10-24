@@ -1,6 +1,8 @@
 #include <iostream>
 #include <clocale>
 #include <bitset>
+#include <string>
+
 
 using namespace std;
 int main(){
@@ -15,5 +17,12 @@ for (int i = 0; i < 8; i++){
     if(num8[i] == 1)
     cout<<"Опа, цифра "<<i<<" это флаг"<<endl;
 }   
+string a, b;
+cout<<"Введите слово: ";
+    cin>>a;
+for(int i = 0; i < a.size(); i++) {
+    bitset<8>a8(a[i]);
+    cout<<a[i]<<" = "<<a8<<endl;
+}
 return 0;
 }
